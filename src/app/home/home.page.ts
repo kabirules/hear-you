@@ -9,4 +9,5 @@ export class HomePage {
 
   constructor() {}
 
+  checked: boolean = true;
 }
