@@ -6,14 +6,14 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 
-import { InputSwitchModule } from 'primeng/inputswitch';
+import { InputTextModule } from 'primeng/inputtext';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InputSwitchModule,
+    InputTextModule,
     RouterModule.forChild([
       {
         path: '',

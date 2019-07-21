@@ -8,10 +8,27 @@
 
 <ion-content>
   <div class="ion-padding">
-    <p-inputSwitch [(ngModel)]="checked"></p-inputSwitch>
+    <ion-card-content style="text-align: center">
+      <div class="ui-g ui-fluid">
+        <div class="ui-g-12 ui-md-12">
+          <span class="ui-float-label">
+            <input id="float-input" type="text" size="30" pInputText> 
+            <label for="float-input">Username</label>
+          </span>
+        </div>
+        <div class="ui-g-12 ui-md-12">
+          <span class="ui-float-label">
+            <input id="float-input" type="text" size="30" pInputText> 
+            <label for="float-input">Password</label>
+          </span>
+        </div>
+      </div>
+    </ion-card-content>    
   </div>
 </ion-content>
 
 <ion-footer>
-  Footer
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
 </ion-footer>
