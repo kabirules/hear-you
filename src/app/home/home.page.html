@@ -8,21 +8,36 @@
 
 <ion-content>
   <div class="ion-padding">
-    <ion-card-content style="text-align: center">
+    <ion-card-content>
       <div class="ui-g ui-fluid">
-        <div class="ui-g-12 ui-md-12">
+        <div class="ui-g-12 ui-md-3"></div>
+        <div class="ui-g-12 ui-md-6">
           <span class="ui-float-label">
             <input id="float-input" type="text" size="30" pInputText> 
             <label for="float-input">Username</label>
           </span>
         </div>
-        <div class="ui-g-12 ui-md-12">
+        <div class="ui-g-12 ui-md-3"></div>
+      </div>
+      <div class="ui-g ui-fluid">
+        <div class="ui-g-12 ui-md-3"></div>
+        <div class="ui-g-12 ui-md-6">
           <span class="ui-float-label">
             <input id="float-input" type="text" size="30" pInputText> 
             <label for="float-input">Password</label>
           </span>
         </div>
+        <div class="ui-g-12 ui-md-3"></div>
       </div>
+      <div class="ui-g ui-fluid">
+          <div class="ui-g-12 ui-md-4"></div>
+          <div class="ui-g-12 ui-md-4">
+            <span class="ui-float-label">
+              <button pButton type="button" label="Login" class="ui-button-rounded" (click)="handleClick($event)"></button>
+            </span>
+          </div>
+          <div class="ui-g-12 ui-md-4"></div>
+        </div>      
     </ion-card-content>    
   </div>
 </ion-content>

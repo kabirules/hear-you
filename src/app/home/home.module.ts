@@ -7,6 +7,7 @@ import { RouterModule } from '@angular/router';
 import { HomePage } from './home.page';
 
 import { InputTextModule } from 'primeng/inputtext';
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   imports: [
@@ -14,6 +15,7 @@ import { InputTextModule } from 'primeng/inputtext';
     FormsModule,
     IonicModule,
     InputTextModule,
+    ButtonModule,
     RouterModule.forChild([
       {
         path: '',
